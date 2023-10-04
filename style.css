@@ -1,0 +1,53 @@
+  .h1 {
+    margin: 0;
+    padding: 0;
+    font-size:40px;
+    color:black;
+    text-align: center;
+}
+  .quote{
+    margin: 10px;
+    border: 10px solid black;
+    border-width: 2px;
+    text-overflow: clip;
+    text-align: center;
+    font-size:20px;
+    width:fit-content;
+    word-wrap: break-word; 
+    max-width: 20ch;
+}
+  .h2 {
+    margin: 0;
+    padding: 0;
+    font-size:30px;
+    color:black;
+    text-align: left;
+  }
+  .par1,.par2,.par3 {
+    margin: 0;
+    padding: 0;
+    font-size:25px;
+    color:black;
+    text-align: left;
+}
+
+table.GeneratedTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  color: #000000;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  padding: 3px;
+}
+
+table.GeneratedTable thead {
+  background-color: #bfbfbf;
+}
